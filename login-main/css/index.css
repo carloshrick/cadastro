@@ -1,0 +1,169 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+
+html,body {
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-rendering: optimizeLegibility;
+
+    height: 100%;
+    width: 100%;
+
+}
+
+body{
+
+    display: flex;
+
+}
+
+#cover{
+
+    height: 100%;
+    width: 100%;
+}
+
+#logo{
+
+    width: 10rem;
+    height: 10rem;
+
+    border-radius: 20%;
+
+}
+
+header{
+
+    margin-top: 5rem;
+    margin-left: 5rem;
+
+    display: flex;
+    align-items: center;
+
+    font-size: 3rem;
+    gap: 5rem;
+
+}
+
+a{
+
+    border-bottom: solid 0.5rem #E22710;
+
+}
+
+main{
+
+    width: 50%;
+
+}
+
+aside{
+
+    width: 50%;
+
+}
+
+
+div{
+
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+
+    margin-top: 5rem;
+    margin-left: 5rem;
+    font-size: 4rem;
+
+
+}
+
+input{
+
+    width: 40rem;
+    height: 5rem;
+
+    background-color: white;
+    border: white;
+    border-bottom: solid 0.2rem #E22710;
+
+
+}
+
+button{
+
+    width: 30rem;
+    height: 5rem;
+
+    background-color: #E22710;
+     color: #fff;
+     font-size: 2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 0rem 0.5rem 0.5rem #a13333;
+    transition: all 0.2s ease-in-out;
+
+}
+
+button:hover{
+
+    background-color: #a13333;
+    box-shadow: 0rem 0.5rem 0rem #751c1c;
+    transform: translateY(0.5rem);
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+#criarconta{
+
+
+    border: 0.2rem solid ;
+    border-radius: 5%;  
+
+    padding-left: 12rem;
+    padding-right: 12rem;
+    padding-bottom: 5rem;
+    
+    left: 30%;
+    top:5%;
+    
+
+}
+
+#criarconta::backdrop{
+
+    /* From https://css.glass */
+    background: rgba(0, 0, 0, 0.36);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.1px);
+    -webkit-backdrop-filter: blur(4.1px);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+
+}
+
+
+#texto{
+
+   
+    color: #ff0000;
+    margin-top: -20%;
+    margin-left: 1rem;
+
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+
